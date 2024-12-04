@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+body {
+    background-color: black;
+
+    
+}
+
+div {
+    max-width: 2000px;
+    background-image: url("https://cdn.prod.website-files.com/5de5569063e17beb5353952b/5fa528a3c6811512d2baf88b_Premier-Lift-Group-Project-Man-United-hero.jpg");
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+    
+}
+
+
+table {
+    background-color: rgb(235, 235, 235);
+    
+    margin: 10px auto;
+    padding: 20px 50px;
+    font-family: sans-serif;
+    line-height: 2;
+    text-align: center;
+    overflow: scroll;
+    border: 2px solid black;
+    position: relative;
+    width: 95%;
+    border-collapse: collapse;
+    max-width: 1000px;
+}
+
+thead {
+    background-color: rgb(126, 126, 126);
+    color: white;
+}
+
+tr {
+    height: 20px;
+       
+}
+
+td, 
+th {
+    height: 10px;
+     
+}
+
+td a {
+    color: black;
+    padding: 10px 10px;
+    
+}
+
+td a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.blue {
+    background-color: rgb(58, 70, 236);
+}
+
+.orange {
+    background-color: orange;
+    margin: 0 0;
+    padding: 0 4px;
+    width: 4px;
+}
+
+.green {
+    background-color: green;
+}
+
+.miejsce {
+    padding: 0 3px;
+}
+
+
+table tr img {
+    height: 50px;
+   
+}
+
+
+table tr td span {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+
+.lose {
+    background-color: rgb(221, 27, 27);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.win {
+    background-color: rgb(95, 155, 6);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.draw {
+    background-color: rgb(116, 116, 116);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.dark {
+    background-color: rgb(228, 228, 228);
+    
+}
+
+
+section p {
+    padding-left: 40px;
+    color: white;
+    background-color: black;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color: black;
+}
+
+footer button {
+    display: inline-block;
+    margin: 25px 10px;
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+footer a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    height: 10px;
+}
+
+footer a:hover {
+    font-size: 30px;
+}
+
+footer button a:active {
+    color: black;
+    border: 0px solid black;
+}
+
+footer button:active {
+    color: black;
+    background-color: white;
+    border: 0px solid black;
+}
